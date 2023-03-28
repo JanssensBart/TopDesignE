@@ -1,0 +1,12 @@
+no ip domain-lookup 
+hostname E1 
+service password-encryption 
+banner motd # 
+Unauthorized access is strictly prohibited. #
+Vlan 99
+Name Management
+exit
+Interface vlan 99
+ip address 172.16.99.1 255.255.255.0
+no shutdown
+end

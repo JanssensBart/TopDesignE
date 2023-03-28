@@ -1,0 +1,10 @@
+enable
+conf t
+line con 0
+password class
+login
+logging synchronous
+line vty 0 15
+password class
+login
+end

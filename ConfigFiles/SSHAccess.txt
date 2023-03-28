@@ -1,0 +1,9 @@
+ip domain-name E.ap
+crypto key generate rsa
+1024
+ip ssh version 2
+username beheerder privilege 15 secret class
+line vty 0 15
+transport input ssh
+login local
+end
