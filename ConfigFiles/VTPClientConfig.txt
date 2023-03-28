@@ -1,0 +1,5 @@
+vtp domain topdesign
+vtp mode client
+vtp password r&stop
+end
+write mem
